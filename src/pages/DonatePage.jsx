@@ -23,9 +23,11 @@ const DonatePage = () => {
           <img 
             src={`${import.meta.env.BASE_URL}2.jpg`} 
             alt="Donate to Oregon Affordable Communities" 
-            className="w-full h-full object-cover opacity-20 mix-blend-multiply"
+            className="w-full h-full object-cover object-center"
             fetchpriority="high"
           />
+          <div className="absolute inset-0 bg-primary/70 mix-blend-multiply"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent"></div>
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className="flex justify-center mb-4">
