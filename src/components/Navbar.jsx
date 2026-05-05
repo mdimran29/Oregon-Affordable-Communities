@@ -41,13 +41,13 @@ const Navbar = () => {
             <Link to="/" className="flex items-center group py-2" aria-label="Oregon Affordable Communities Home">
               {/* Desktop Horizontal Logo */}
               <img 
-                src="/logo-horizontal.png" 
+                src={`${import.meta.env.BASE_URL}logo-horizontal.png`} 
                 alt="Oregon Affordable Communities Logo" 
                 className={`hidden md:block object-contain transition-all duration-300 ${isScrolled ? 'h-10' : 'h-12'}`}
               />
               {/* Mobile Stacked Logo */}
               <img 
-                src="/logo-stacked.png" 
+                src={`${import.meta.env.BASE_URL}logo-stacked.png`} 
                 alt="Oregon Affordable Communities Logo" 
                 className="md:hidden object-contain transition-all duration-300 h-11"
               />

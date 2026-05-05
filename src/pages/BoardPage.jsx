@@ -18,7 +18,7 @@ const BoardPage = () => {
       <section className="relative w-full h-[40vh] md:h-[50vh] bg-primary flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <img 
-            src="/3.jpg" 
+            src={`${import.meta.env.BASE_URL}3.jpg`} 
             alt="Board of Directors" 
             className="w-full h-full object-cover object-center"
             fetchpriority="high"

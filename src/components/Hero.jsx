@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/image1.jpg" 
+          src={`${import.meta.env.BASE_URL}image1.jpg`} 
           alt="Oregon Landscape" 
           className="w-full h-full object-cover object-center"
           fetchpriority="high"

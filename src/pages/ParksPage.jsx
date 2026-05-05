@@ -9,7 +9,7 @@ const ParksPage = () => {
       <section className="relative w-full h-[50vh] md:h-[60vh] bg-gray-900 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="/3.jpg"
+            src={`${import.meta.env.BASE_URL}3.jpg`}
             alt="Beautiful Oregon landscape with residential community"
             className="w-full h-full object-cover object-center"
             fetchpriority="high"
@@ -67,7 +67,7 @@ const ParksPage = () => {
           <div className="order-1 lg:order-2 relative group">
             <div className="absolute inset-0 bg-primary translate-x-4 translate-y-4 rounded-2xl -z-10 transition-transform duration-300 group-hover:translate-x-6 group-hover:translate-y-6"></div>
             <img
-              src="/4.jpg"
+              src={`${import.meta.env.BASE_URL}4.jpg`}
               alt="John Day Mobile Home Park homes"
               className="w-full h-auto rounded-2xl object-cover shadow-lg aspect-[4/3]"
             />

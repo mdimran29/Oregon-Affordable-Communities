@@ -10,7 +10,7 @@ const AboutPage = () => {
       <section className="relative w-full h-[40vh] md:h-[50vh] bg-primary flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <img 
-            src="/1.jpg" 
+            src={`${import.meta.env.BASE_URL}1.jpg`} 
             alt="About Oregon Affordable Communities" 
             className="w-full h-full object-cover object-center"
             fetchpriority="high"

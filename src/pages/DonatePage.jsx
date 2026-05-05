@@ -21,7 +21,7 @@ const DonatePage = () => {
       <section className="relative w-full h-[40vh] bg-primary flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <img 
-            src="/2.jpg" 
+            src={`${import.meta.env.BASE_URL}2.jpg`} 
             alt="Donate to Oregon Affordable Communities" 
             className="w-full h-full object-cover opacity-20 mix-blend-multiply"
             fetchpriority="high"

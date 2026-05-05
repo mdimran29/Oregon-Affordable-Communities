@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="inline-block mb-6 opacity-90 hover:opacity-100 transition-opacity">
               <img 
-                src="/logo-stacked.png" 
+                src={`${import.meta.env.BASE_URL}logo-stacked.png`} 
                 alt="Oregon Affordable Communities Logo" 
                 className="w-32 h-auto object-contain mix-blend-multiply"
               />

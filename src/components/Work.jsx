@@ -24,7 +24,7 @@ const Work = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/2.jpg" 
+                src={`${import.meta.env.BASE_URL}2.jpg`} 
                 alt="Acquiring At-Risk Parks" 
                 className="rounded-2xl shadow-md w-full aspect-video object-cover"
                 loading="lazy"
@@ -36,7 +36,7 @@ const Work = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-1">
               <img 
-                src="/3.jpg" 
+                src={`${import.meta.env.BASE_URL}3.jpg`} 
                 alt="Preserving Affordable Housing" 
                 className="rounded-2xl shadow-md w-full aspect-video object-cover"
                 loading="lazy"
@@ -69,7 +69,7 @@ const Work = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/4.jpg" 
+                src={`${import.meta.env.BASE_URL}4.jpg`} 
                 alt="Investing in Park Improvements" 
                 className="rounded-2xl shadow-md w-full aspect-video object-cover"
                 loading="lazy"
